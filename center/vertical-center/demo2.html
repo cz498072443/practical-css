@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .view{
+        border: 1px solid black;
+        width: 200px;
+        height: 100px;
+    }
+    .empty,text{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .empty{
+        height: 100%;
+    }
+
+
+
+    .view2{
+        border: 1px solid black;
+        width: 200px;
+        height: 100px;
+        display: table-cell;
+        /*vertical-align: middle;*/
+    }
+    .view2{
+        vertical-align: middle;
+    }
+
+</style>
+<body>
+利用vertical-align居中
+<div class="view">
+    <span class="empty"></span>
+    <span class="text">
+        内容多行
+    </span>
+</div>
+
+<div class="view2">
+    <div>
+        内容多行<br>
+        内容多行
+    </div>
+
+</div>
+
+</body>
+</html>
